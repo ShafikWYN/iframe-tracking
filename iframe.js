@@ -22,7 +22,7 @@ function pushIframeDetailsToDataLayer(iframe) {
     
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-        event: 'iframeFocus',
+        event: 'gggg',
         iFrame_src: iframeSrc || '',
         iFrame_id: iframeId || '',
         iFrame_class: iframeClass || '',
